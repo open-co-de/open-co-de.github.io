@@ -3,7 +3,7 @@ layout: page
 title: links
 ---
 
-Very useful references to use on the open-space
+Nützliche Links und Referenzen
 
 | <a href="https://github.com/badges/shields/blob/master/README.md"><img src="https://rawgit.com/badges/shields/master/static/logo.svg" height="25"></a>| references                |  
 |-------------------------------------|--------------------------------------------------------------------------------------|
