@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: home
+title: home
 ---
-
 # [Code](#code) und [Offenheit](#offenheit) - made in Germany
 
 ![Logo](/assets/img/open-code-logo-100x100.png)
