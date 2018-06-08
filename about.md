@@ -3,9 +3,12 @@ layout: page
 title: about
 ---
 
-Markus Tiede
+[Markus Tiede](http://www.mtiede.de)
+
 Fritz-Wolfsberger-Str. 9
+
 79379 Müllheim
+
 Deutschland
 
 ## credits
