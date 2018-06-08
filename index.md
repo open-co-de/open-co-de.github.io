@@ -1,6 +1,5 @@
 ---
-layout: home
-title: home
+layout: page
 ---
 
 # [Code](#code) und [Offenheit](#offenheit) - made in Germany
