@@ -2,6 +2,4 @@
 layout: home
 title: home
 ---
-# Know-How rund um das Thema Open-Source
-
-![Logo](/assets/img/open-code-logo-100x100.png)
+# Knowhow rund um das Thema Open-Sour![c](assets/img/open-code-logo-25x25.png)e
