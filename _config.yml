@@ -2,6 +2,7 @@ title: open-co.de
 description: Open Source - made in Germany  
 theme: minima
 header_pages:
+  - portfolio.md
   - links.md 
   - about.md
 
