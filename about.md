@@ -16,9 +16,9 @@ Logo / further artwork based on and derived from [Icons8 SVG version](https://ic
 [![Build Status](https://travis-ci.org/open-co-de/open-co-de.github.io.svg)](https://travis-ci.org/open-co-de/open-co-de.github.io)
 
 ## naming
-[Code](#code) und [Offenheit](#offenheit) - made in Germany
+[Offenheit](#offenheit) und [Code](#code) - made in Germany
+
+### Offenheit
 
 ### Code
 Von der Quelle, den Flusslauf entlang, ins Meer und zurück zur Quelle.
-
-### Offenheit
