@@ -2,7 +2,8 @@
 layout: home
 title: home
 ---
-# Knowhow rund um das Thema Open-Sour![c](assets/img/open-code-logo-25x25.png)e
+![logo](assets/img/open-code-logo-100x100.png) 
+# Knowhow rund um das Thema Open Source
 
 | ![start](https://png.icons8.com/dotty/80/000000/launched-rocket.png)             | **Getting started!**                                                             |
 |:--------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------:|
