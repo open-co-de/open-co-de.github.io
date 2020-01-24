@@ -3,7 +3,7 @@ layout: page
 title: about
 ---
 
-[Markus Tiede](https://github.com/MarkusTiede/about/blob/master/me.md#markus-tiede) <br>
+[Markus Tiede](https://github.com/MarkusTiede/about/blob/master/me.md#markus-andreas-tiede) <br>
 Fritz-Wolfsberger-Str. 9 <br>
 79379 Müllheim <br>
 Deutschland
