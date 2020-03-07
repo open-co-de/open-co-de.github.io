@@ -2,7 +2,6 @@ title: open-co.de
 description: Open Source - made in Germany  
 theme: minima
 header_pages:
-  - links.md 
   - about.md
 
 email: info@open-co.de
