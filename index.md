@@ -1,9 +1,8 @@
 ---
-layout: home
+layout: default
 title: home
 ---
-![logo](assets/img/open-code-logo-100x100.png) 
-# Know-How rund um das Thema Open-Source
+# Open-Source made in Germany
 
 | ![start](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Icon_DINA_Schwerpunkte_Parldigi_02_Open_Standards_Farbig.svg/200px-Icon_DINA_Schwerpunkte_Parldigi_02_Open_Standards_Farbig.svg.png)             | **Getting started!**                                                             |
 |:--------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------:|
