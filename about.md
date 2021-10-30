@@ -14,11 +14,3 @@ Deutschland
 Logo / further artwork based on and derived from [Icons8 SVG version](https://icons8.com/icon/23872/Open-Source) of the [**O**pen **S**ource **I**nitiative](https://opensource.org) with respect to the [OSI logo usage guidelines](https://opensource.org/logo-usage-guidelines)
 
 [![Build Status](https://travis-ci.org/open-co-de/open-co-de.github.io.svg)](https://travis-ci.org/open-co-de/open-co-de.github.io)
-
-## naming
-[Offenheit](#offenheit) und [Code](#code) - made in Germany
-
-### Offenheit
-
-### Code
-Von der Quelle, den Flusslauf entlang, ins Meer und zurück zur Quelle.
