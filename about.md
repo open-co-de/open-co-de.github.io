@@ -3,10 +3,15 @@ layout: page
 title: about
 ---
 
+## contact
+
 [Markus Tiede](https://github.com/MarkusTiede/about/blob/master/me.md#markus-andreas-tiede) <br>
 Fritz-Wolfsberger-Str. 9 <br>
 79379 Müllheim <br>
 Deutschland
+
+[eMail: info@open-co.de](mailto:info@open-co.de) <br>
+phone: +49 7631 1836102
 
 ## credits
 ![Logo](/assets/img/open-code-logo-100x100.png)
