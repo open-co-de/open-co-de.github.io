@@ -13,6 +13,8 @@ Deutschland
 eMail: [info@open-co.de](mailto:info@open-co.de) <br>
 phone: [+49 7631 1836102](tel:+4976311836102)
 
+powered by [SMA Solar Technology AG](https://www.sunnyportal.com/Templates/PublicPageOverview.aspx?plant=38731e6b-6db2-412f-bb7b-8bad676243d9)
+
 ## credits
 ![Logo](/assets/img/open-code-logo-100x100.png)
 
