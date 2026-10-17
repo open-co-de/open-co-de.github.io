@@ -26,4 +26,4 @@ Web: [www.mtiede.de](https://www.mtiede.de)
 
 Das Logo und weitere Gestaltungselemente basieren auf der [SVG-Version von Icons8](https://icons8.com/icon/23872/Open-Source) des Logos der [Open Source Initiative](https://opensource.org) und berücksichtigen deren [Logo-Nutzungsrichtlinien](https://opensource.org/logo-usage-guidelines).
 
-<p class="note">Betrieben mit Sonnenstrom – <a href="https://www.sunnyportal.com/Templates/PublicPageOverview.aspx?plant=38731e6b-6db2-412f-bb7b-8bad676243d9">powered by SMA Solar Technology AG</a>.</p>
+<p class="note with-icon">{% include icon.html name="sun" %} Betrieben mit Sonnenstrom – <a href="https://www.sunnyportal.com/Templates/PublicPageOverview.aspx?plant=38731e6b-6db2-412f-bb7b-8bad676243d9">powered by SMA Solar Technology AG</a>.</p>

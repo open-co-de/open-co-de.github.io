@@ -2,44 +2,67 @@
 layout: default
 ---
 <section class="hero">
-  <div class="wrap">
-    <p class="eyebrow">Open Source · Made in Germany</p>
-    <h1>Open Source verstehen, nutzen und mitgestalten.</h1>
-    <p class="lead">{{ site.description }}</p>
-    <div class="actions">
-      <a class="btn btn-primary" href="mailto:{{ site.email }}">Kontakt aufnehmen</a>
-      <a class="btn" href="#themen">Themen ansehen</a>
+  <div class="wrap hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">Open Source · Made in Germany</p>
+      <h1>Open Source verstehen, nutzen und mitgestalten.</h1>
+      <p class="lead">{{ site.description }}</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="mailto:{{ site.email }}">Kontakt aufnehmen {% include icon.html name="arrow-right" %}</a>
+        <a class="btn" href="#themen">Themen ansehen {% include icon.html name="arrow-down" %}</a>
+      </div>
     </div>
+    <div class="hero-mark" aria-hidden="true">{% include logo.svg %}</div>
+  </div>
+</section>
+
+<section class="principles" aria-label="Prinzipien">
+  <div class="wrap">
+    <ul class="principle-list">
+      <li>
+        <span class="icon-badge">{% include icon.html name="blocks" %}</span>
+        <div><strong>Offene Standards</strong><span>Interoperabel und herstellerunabhängig</span></div>
+      </li>
+      <li>
+        <span class="icon-badge">{% include icon.html name="share" %}</span>
+        <div><strong>Beteiligung</strong><span>Wissen teilen, gemeinsam weiterentwickeln</span></div>
+      </li>
+      <li>
+        <span class="icon-badge">{% include icon.html name="leaf" %}</span>
+        <div><strong>Digitale Nachhaltigkeit</strong><span>Software, die langfristig trägt</span></div>
+      </li>
+    </ul>
   </div>
 </section>
 
 <section class="section" id="themen">
   <div class="wrap">
     <div class="section-head">
+      <p class="eyebrow">Themen</p>
       <h2>Vier Perspektiven auf Open Source</h2>
       <p>Erfolgreiches Open Source ist mehr als Code: Es braucht Menschen, klare Regeln, einen wirtschaftlichen Grund und rechtliche Sicherheit.</p>
     </div>
     <ol class="topics">
       <li class="topic">
-        <span class="topic-no">01</span>
+        <div class="topic-top"><span class="icon-badge">{% include icon.html name="compass" %}</span><span class="topic-no">01</span></div>
         <h3>Einstieg</h3>
         <p>Open-Source-Software gezielt einsetzen, eigene Beiträge leisten und Projekte nachhaltig fördern.</p>
         <ul class="tags"><li>Nutzen</li><li>Beitragen</li><li>Fördern</li></ul>
       </li>
       <li class="topic">
-        <span class="topic-no">02</span>
+        <div class="topic-top"><span class="icon-badge">{% include icon.html name="users" %}</span><span class="topic-no">02</span></div>
         <h3>Communities</h3>
         <p>Teams aufbauen, gemeinsame Spielregeln etablieren und Beteiligung ermöglichen.</p>
         <ul class="tags"><li>Teams</li><li>Regeln</li><li>Befähigung</li></ul>
       </li>
       <li class="topic">
-        <span class="topic-no">03</span>
+        <div class="topic-top"><span class="icon-badge">{% include icon.html name="trend" %}</span><span class="topic-no">03</span></div>
         <h3>Geschäftswert</h3>
         <p>Den Nutzen von Open Source begründen, Kosten senken und Innovation vorantreiben.</p>
         <ul class="tags"><li>Argumente</li><li>Einsparung</li><li>Innovation</li></ul>
       </li>
       <li class="topic">
-        <span class="topic-no">04</span>
+        <div class="topic-top"><span class="icon-badge">{% include icon.html name="scale" %}</span><span class="topic-no">04</span></div>
         <h3>Rechtliches</h3>
         <p>Lizenzen verstehen, Pflichten einhalten und typische Fallstricke vermeiden.</p>
         <ul class="tags"><li>Recht</li><li>Lizenzen</li><li>Do’s &amp; Don’ts</li></ul>
@@ -48,16 +71,18 @@ layout: default
   </div>
 </section>
 
-<section class="section" id="kontakt">
+<section class="section section-soft" id="kontakt">
   <div class="wrap contact">
     <div class="section-head" style="margin-bottom:0">
+      <p class="eyebrow">Kontakt</p>
       <h2>Lassen Sie uns sprechen.</h2>
       <p>Sie planen den Einstieg in Open Source oder möchten Ihr Engagement ausbauen? Ich freue mich auf Ihre Nachricht.</p>
     </div>
-    <dl>
-      <div><dt>E-Mail</dt><dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd></div>
-      <div><dt>Telefon</dt><dd><a href="tel:{{ site.phone | remove: ' ' }}">{{ site.phone }}</a></dd></div>
-      <div><dt>GitHub</dt><dd><a href="https://github.com/{{ site.github_username }}" rel="noopener">github.com/{{ site.github_username }}</a></dd></div>
-    </dl>
+    <ul class="contact-list">
+      <li>{% include icon.html name="mail" %}<span class="label">E-Mail</span><span class="value"><a href="mailto:{{ site.email }}">{{ site.email }}</a></span></li>
+      <li>{% include icon.html name="phone" %}<span class="label">Telefon</span><span class="value"><a href="tel:{{ site.phone | remove: ' ' }}">{{ site.phone }}</a></span></li>
+      <li>{% include icon.html name="code" %}<span class="label">GitHub</span><span class="value"><a href="https://github.com/{{ site.github_username }}" rel="noopener">github.com/{{ site.github_username }}</a></span></li>
+      <li>{% include icon.html name="pin" %}<span class="label">Standort</span><span class="value">Müllheim im Markgräflerland</span></li>
+    </ul>
   </div>
 </section>

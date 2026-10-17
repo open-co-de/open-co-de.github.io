@@ -9,6 +9,8 @@
   --accent: #4167a6;
   --logo-fill: #8da9c4;
   --logo-stroke: #2b4570;
+  --tint: #eaf1f8;
+  --tint-strong: #c9d8e8;
   --wrap: 68rem;
   --radius: 10px;
   --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -26,6 +28,8 @@
     --accent: #8db4e8;
     --logo-fill: #8da9c4;
     --logo-stroke: #a8d0db;
+    --tint: #18243b;
+    --tint-strong: #2a3a57;
   }
 }
 
@@ -84,17 +88,45 @@ h1, h2, h3 { color: var(--text); line-height: 1.15; letter-spacing: -.02em; font
 .topics { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
 .topic { padding: 2rem 1.75rem 2.25rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .topic-no { font: 500 .8rem/1 var(--mono); color: var(--accent); }
-.topic h3 { font-size: 1.25rem; margin: 1.25rem 0 .6rem; }
+.topic h3 { font-size: 1.25rem; margin: 1.5rem 0 .6rem; }
 .topic p { color: var(--muted); margin: 0 0 1.25rem; font-size: .98rem; }
 .tags { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem; }
 .tags li { font-size: .8rem; padding: .2rem .65rem; border-radius: 999px; background: var(--bg-soft); color: var(--muted); border: 1px solid var(--line); }
 
+/* Icons */
+.icon { width: 1.25rem; height: 1.25rem; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+.btn .icon { width: 1.05rem; height: 1.05rem; margin-left: .5rem; transition: transform .15s; }
+.btn-primary:hover .icon { transform: translateX(2px); }
+.btn:not(.btn-primary):hover .icon { transform: translateY(2px); }
+.icon-badge { display: inline-grid; place-items: center; width: 2.75rem; height: 2.75rem; border-radius: 12px; background: var(--tint); color: var(--accent); flex: none; }
+
+/* Hero mark */
+.hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 3rem; }
+.hero-mark .logo { width: clamp(12rem, 24vw, 19rem); height: auto; fill: var(--tint); stroke: var(--tint-strong); stroke-width: .6; }
+@media (max-width: 56rem) { .hero-inner { grid-template-columns: 1fr; } .hero-mark { display: none; } }
+
+/* Principles */
+.principles { border-top: 1px solid var(--line); background: var(--bg-soft); }
+.principle-list { list-style: none; margin: 0; padding: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1.5rem 2.5rem; }
+.principle-list li { display: flex; align-items: center; gap: 1rem; }
+.principle-list strong { display: block; font-weight: 600; font-size: .98rem; }
+.principle-list span:not(.icon-badge) { display: block; color: var(--muted); font-size: .9rem; }
+.principles .icon-badge { background: var(--bg); border: 1px solid var(--line); }
+
+.topic { transition: background .2s; }
+.topic:hover { background: var(--bg-soft); }
+.topic-top { display: flex; justify-content: space-between; align-items: flex-start; }
+.section-head .eyebrow { margin: 0; }
+.section-soft { background: var(--bg-soft); }
+
 .contact { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 2.5rem; align-items: end; }
-.contact dl { margin: 0; display: grid; gap: 1.25rem; }
-.contact dt { font: 500 .75rem/1 var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: .4rem; }
-.contact dd { margin: 0; font-size: 1.15rem; }
-.contact dd a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--line); }
-.contact dd a:hover { border-color: var(--text); }
+.contact-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1.75rem 2rem; }
+.contact-list > li { display: grid; grid-template-columns: auto 1fr; column-gap: .9rem; align-content: start; }
+.contact-list .icon { grid-row: span 2; color: var(--accent); margin-top: .1rem; }
+.contact-list .label { display: block; font: 500 .75rem/1 var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: .4rem; }
+.contact-list .value { margin: 0; font-size: 1.05rem; }
+.contact-list .value a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--line); }
+.contact-list .value a:hover { border-color: var(--text); }
 
 /* Pages */
 .page { padding: clamp(3.5rem, 8vw, 6rem) 1.5rem clamp(4rem, 9vw, 7rem); max-width: 46rem; }
@@ -120,3 +152,5 @@ h1, h2, h3 { color: var(--text); line-height: 1.15; letter-spacing: -.02em; font
   .wrap { padding: 0 1rem; }
   .page { padding-left: 1rem; padding-right: 1rem; }
 }
+.prose .with-icon .icon { vertical-align: -.2em; margin-right: .35rem; }
+.prose .with-icon .icon { width: 1.1rem; height: 1.1rem; color: var(--accent); }
