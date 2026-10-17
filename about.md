@@ -1,19 +1,29 @@
 ---
 layout: page
-title: about
+title: Impressum
+permalink: /impressum/
+redirect_from:
+  - /about/
+  - /about.html
 ---
 
-[Markus Tiede](http://www.mtiede.de) <br>
-Fritz-Wolfsberger-Str. 9 <br>
-79379 Müllheim im Markgräflerland <br>
+## Angaben gemäß § 5 DDG
+
+<address>
+Markus Tiede<br>
+Fritz-Wolfsberger-Str. 9<br>
+79379 Müllheim im Markgräflerland<br>
 Deutschland
+</address>
 
-eMail: [info@open-co.de](mailto:info@open-co.de) <br>
-phone: [+49 7631 1836102](tel:+4976311836102)
+## Kontakt
 
-powered by [SMA Solar Technology AG](https://www.sunnyportal.com/Templates/PublicPageOverview.aspx?plant=38731e6b-6db2-412f-bb7b-8bad676243d9)
+E-Mail: [{{ site.email }}](mailto:{{ site.email }})<br>
+Telefon: [{{ site.phone }}](tel:{{ site.phone | remove: ' ' }})<br>
+Web: [www.mtiede.de](https://www.mtiede.de)
 
-## credits
-![Logo](/assets/img/open-code-logo-100x100.png)
+## Credits
 
-Logo / further artwork based on and derived from [Icons8 SVG version](https://icons8.com/icon/23872/Open-Source) of the [**O**pen **S**ource **I**nitiative](https://opensource.org) with respect to the [OSI logo usage guidelines](https://opensource.org/logo-usage-guidelines)
+Das Logo und weitere Gestaltungselemente basieren auf der [SVG-Version von Icons8](https://icons8.com/icon/23872/Open-Source) des Logos der [Open Source Initiative](https://opensource.org) und berücksichtigen deren [Logo-Nutzungsrichtlinien](https://opensource.org/logo-usage-guidelines).
+
+<p class="note">Betrieben mit Sonnenstrom – <a href="https://www.sunnyportal.com/Templates/PublicPageOverview.aspx?plant=38731e6b-6db2-412f-bb7b-8bad676243d9">powered by SMA Solar Technology AG</a>.</p>

@@ -1,15 +1,28 @@
 title: open-co.de
-description: Open Source - made in Germany
-theme: minima
-header_pages:
-  - about.md
+tagline: Open Source – made in Germany
+description: >-
+  open-co.de begleitet Menschen und Organisationen auf dem Weg zu Open Source –
+  vom Einstieg über Communities bis zu wirtschaftlichen und rechtlichen Fragen.
+lang: de
+url: https://open-co.de
 
 email: info@open-co.de
+phone: "+49 7631 1836102"
 author: Markus Tiede
+github_username: open-co-de
 
-twitter_username: OpenCo_de
-github_username:  open-co-de
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
 
-github: [metadata]
-
-google_analytics: UA-120597361-1
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - .project
+  - assets/img/src
+  - assets/icons/open-code-logo
+  - assets/icons/open-code-logo.iconset
+  - assets/icons/open-code-logo.icns

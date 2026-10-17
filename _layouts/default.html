@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'de' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#2b4570">
+  {% seo %}
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
+  <link rel="apple-touch-icon" href="{{ '/assets/img/open-code-logo-200x200.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip" href="#inhalt">Zum Inhalt springen</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} – Startseite">
+        {% include logo.svg %}<span>{{ site.title }}</span>
+      </a>
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="{{ '/#themen' | relative_url }}">Themen</a>
+        <a href="{{ '/#kontakt' | relative_url }}">Kontakt</a>
+        <a href="https://github.com/{{ site.github_username }}" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inhalt">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© {{ site.time | date: '%Y' }} {{ site.title }} · {{ site.tagline }}</p>
+      <nav aria-label="Rechtliches">
+        <a href="{{ '/impressum/' | relative_url }}">Impressum</a>
+        <a href="{{ '/datenschutz/' | relative_url }}">Datenschutz</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

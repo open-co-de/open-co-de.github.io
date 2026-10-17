@@ -1,6 +1,13 @@
-# open-co-de.github.io
-GitHub Pages Repo
+# open-co.de
 
-[![gitpod-IDE](https://img.shields.io/badge/open--IDE-as--gitpod-blue.svg?style=flat&label=openIDE)](https://gitpod.io#https://github.com/open-co-de/open-co-de.github.io) based on [Eclipse Theia][theia.site]
+Quellcode der Website [open-co.de](https://open-co.de), gebaut mit Jekyll und GitHub Pages.
 
-[theia.site]: https://theia-ide.org
+- Keine Themes, kein JavaScript, keine externen Ressourcen, kein Tracking
+- Layout: `_layouts/`, Styles: `assets/css/main.css`, Inhalte: `index.html`, `about.md` (Impressum), `datenschutz.md`
+
+Lokale Vorschau:
+
+```sh
+docker run --rm -p 4000:4000 -v "$PWD":/srv/jekyll -w /srv/jekyll ruby:3.3 \
+  sh -c 'bundle install && bundle exec jekyll serve --host 0.0.0.0'
+```

@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Open Source · Made in Germany</p>
+    <h1>Open Source verstehen, nutzen und mitgestalten.</h1>
+    <p class="lead">{{ site.description }}</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="mailto:{{ site.email }}">Kontakt aufnehmen</a>
+      <a class="btn" href="#themen">Themen ansehen</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="themen">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Vier Perspektiven auf Open Source</h2>
+      <p>Erfolgreiches Open Source ist mehr als Code: Es braucht Menschen, klare Regeln, einen wirtschaftlichen Grund und rechtliche Sicherheit.</p>
+    </div>
+    <ol class="topics">
+      <li class="topic">
+        <span class="topic-no">01</span>
+        <h3>Einstieg</h3>
+        <p>Open-Source-Software gezielt einsetzen, eigene Beiträge leisten und Projekte nachhaltig fördern.</p>
+        <ul class="tags"><li>Nutzen</li><li>Beitragen</li><li>Fördern</li></ul>
+      </li>
+      <li class="topic">
+        <span class="topic-no">02</span>
+        <h3>Communities</h3>
+        <p>Teams aufbauen, gemeinsame Spielregeln etablieren und Beteiligung ermöglichen.</p>
+        <ul class="tags"><li>Teams</li><li>Regeln</li><li>Befähigung</li></ul>
+      </li>
+      <li class="topic">
+        <span class="topic-no">03</span>
+        <h3>Geschäftswert</h3>
+        <p>Den Nutzen von Open Source begründen, Kosten senken und Innovation vorantreiben.</p>
+        <ul class="tags"><li>Argumente</li><li>Einsparung</li><li>Innovation</li></ul>
+      </li>
+      <li class="topic">
+        <span class="topic-no">04</span>
+        <h3>Rechtliches</h3>
+        <p>Lizenzen verstehen, Pflichten einhalten und typische Fallstricke vermeiden.</p>
+        <ul class="tags"><li>Recht</li><li>Lizenzen</li><li>Do’s &amp; Don’ts</li></ul>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section" id="kontakt">
+  <div class="wrap contact">
+    <div class="section-head" style="margin-bottom:0">
+      <h2>Lassen Sie uns sprechen.</h2>
+      <p>Sie planen den Einstieg in Open Source oder möchten Ihr Engagement ausbauen? Ich freue mich auf Ihre Nachricht.</p>
+    </div>
+    <dl>
+      <div><dt>E-Mail</dt><dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd></div>
+      <div><dt>Telefon</dt><dd><a href="tel:{{ site.phone | remove: ' ' }}">{{ site.phone }}</a></dd></div>
+      <div><dt>GitHub</dt><dd><a href="https://github.com/{{ site.github_username }}" rel="noopener">github.com/{{ site.github_username }}</a></dd></div>
+    </dl>
+  </div>
+</section>
